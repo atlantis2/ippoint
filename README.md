@@ -1,7 +1,10 @@
 # ippoint
 
 # Changelog
-* 2.0.325 : - 20181005
+* 2.0.326 - 20181008
+ * hostaction-state: wait -> ready
+-----
+* 2.0.325 - 20181005
  * host의 (IP|IP6)action에 wait state 추가
 -----
 * 2.0.324 - 20181004 : 
