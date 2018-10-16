@@ -1,6 +1,10 @@
 # ippoint
 
 # Changelog
+
+* 2.0.327 - 20181016
+ * Visual Address List (WEB) 추가 : 사용/미사용 IP리스트 보기 
+-----
 * 2.0.326 - 20181008
  * hostaction-state: wait -> ready
 -----
