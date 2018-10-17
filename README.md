@@ -1,7 +1,12 @@
 # ippoint
 
 # Changelog
-
+* 2.0.331 - 20181017
+ * host delete후 iplist에 대하여 arps보내기
+-----
+* 2.0.330 - 20181016
+ * IP충돌방지 옵션이 되어있는 장비(A)의 IP주소를 임의의 장비(B)가 사용할경우: A장비 OFF, B장비 ON일 경우 IPPoint장비에서 대신 응답
+-----
 * 2.0.327 - 20181016
  * Visual Address List (WEB) 추가 : 사용/미사용 IP리스트 보기 
 -----
