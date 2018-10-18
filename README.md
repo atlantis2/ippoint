@@ -1,6 +1,11 @@
 # ippoint
 
 # Changelog
+
+
+* 2.0.333 - 20181018
+ * WEB환경에서 host 삭제시 multiple 하게 지울수 있게 selectable checkbox 지원
+-----
 * 2.0.331 - 20181017
  * host delete후 iplist에 대하여 arps보내기
 -----
