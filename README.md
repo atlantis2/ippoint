@@ -1,7 +1,10 @@
 # ippoint
 
 # Changelog
-
+* 2.0.339 - 20181021
+ * IPPoint장비가 가지고 있는 Interface/VLAN의 정보(H/W ADDRESS, IP, IP6 ADDRESS)를 Host리스트에 표시
+ * IPPoint장비의 VLAN설정시 parent Interface의 H/W주소와 VLAN주소가 같지 않게 AUTOGEN하여 생성 및 Editable
+ * IPPoint장비가 가지고있는 Interface/VLAN의 정보를 주기적으로 업데이트
 
 * 2.0.333 - 20181018
  * WEB환경에서 host 삭제시 multiple 하게 지울수 있게 selectable checkbox 지원
