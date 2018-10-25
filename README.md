@@ -1,6 +1,10 @@
 # ippoint
 
 # Changelog
+* 2.0.346 - 20181025
+ * Host 'Long Unused' 필터 
+ * Visual Address List에 'Long Unused' IP 주소 표시ㅣ
+-----
 * 2.0.342 - 20181022
  * IPPoint장비가 가지고 있는 Interface/VLAN의 정보(H/W ADDRESS, IP, IP6 ADDRESS)를 Host리스트에 표시
  * IPPoint장비의 VLAN설정시 parent Interface의 H/W주소와 VLAN주소가 같지 않게 AUTOGEN하여 생성 및 Editable
