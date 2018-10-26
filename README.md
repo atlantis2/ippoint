@@ -1,7 +1,7 @@
 # ippoint
 
 # Changelog
-* 2.0.351 - 20181027
+* 2.0.352 - 20181027
  * Host IPPoint장비의 ONOFFLINE상태를 usermode에서 rebuild 
    (system에서 읽은 interface linkstate 참조)
 -----
