@@ -1,6 +1,9 @@
 # ippoint
 
 # Changelog
+* 2.0.350 - 20181026
+ * Host Viewer 추가 (CreateTime, RegTime, LastTime)
+-----
 * 2.0.349 - 20181026
  * Host 'Long Unused' 필터 
  * Visual Address List에 'Long Unused' IP 주소 표시
