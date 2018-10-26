@@ -2,7 +2,7 @@
 
 # Changelog
 * 2.0.351 - 20181027
- * Host IPPoint장비의 ONOFFLINE usermode에서 rebuild (system에서 읽은 interface linkstate
+ * Host IPPoint장비의 ONOFFLINE usermode에서 rebuild (system에서 읽은 interface linkstate 
 -----
 * 2.0.350 - 20181026
  * Host Viewer 추가 (CreateTime, RegTime, LastTime)
