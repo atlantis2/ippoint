@@ -12,7 +12,7 @@
     * 기존버전으로 설치가 완료가 되면 설정을 복원한다. ( SYSTEM > Backup > Import )
 -----
 # Changelog
-* 2.0.353 - 20181107
+* 2.0.354 - 20181108
 * upgrade/reboot/shutdown시 host write 순서 변경
     * reboot/shutdown : [hostwrite -> reboot/shutdown] -> [hostwrite -> reboot/shutdown]
     * upgrade : [upgrade -> hostwrite -> reboot ] -> [hostwrite -> upgrade -> reboot]
