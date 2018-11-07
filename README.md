@@ -1,5 +1,16 @@
 # ippoint
-
+# UPGRADE시 주의사항
+-----
+* 1. 기존 설치된 IPPoint의 버전을 확인하고 설치된 버전에 대한 패키지를 준비해 둔다.
+* 2. 업그레이드시 기존버전에 대한 정책에 대하여 백업을 한다. 
+*   2.1. 모든 시스템 설정 백업 (SYSTEM >  Backup > Export) 
+*   2.2. Host에 대한 정보를 Excel로 백업을 한다. ( IPPoint > Profile > Host > Excel Export)
+* 3. 새롭게 업그레이드를 한다. 
+* 4. 모든 설정이 정상 로딩 시 정상 OK
+* 5. 설정이 비정상적으로 올라온경우에는 이전버전으로 rollback
+* 5.1. 기존 설치된 버전으로 새롭게 Upgrade를 실행한다. 
+* 5.2. 기존버전으로 설치가 완료가 되면 설정을 복원한다. ( SYSTEM > Backup > Import )
+-----
 # Changelog
 * 2.0.352 - 20181027
  * Host IPPoint장비의 ONOFFLINE상태를 usermode에서 rebuild 
