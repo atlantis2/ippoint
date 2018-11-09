@@ -13,7 +13,7 @@
 * 6 고객사에서 운영중에 시스템에 적용시 설치버전에 대한 업그레이드 테스트 요망.
 -----
 # Changelog
-* 2.0.357 - 20181108
+* 2.0.358 - 20181108
 * 차단 호스트 IP(IP6)변경시 일시적으로 정상동작
     * 원인 : ip(6)block요소 서치시 target IP(6)로 조회하여 문제 발생 
     * 해결책: ip(6)block요소 서치시 ip(6)block요소의 src/dst에 대한 주소로 서치
@@ -21,6 +21,7 @@
     * 문제점: HostSelf가 적용되지 않은 2.0.342 버전 이전의 프로그램에서 upgrade시 저장된 호스트정보 삭제됨.
     * reboot/shutdown : [hostwrite -> reboot/shutdown] -> [hostwrite -> reboot/shutdown]
     * upgrade : [upgrade -> hostwrite -> reboot ] -> [hostwrite -> upgrade -> reboot]
+    * backup-import: backup-import -> reboot (hostwrite disable)
 -----
 * 2.0.352 - 20181027
  * Host IPPoint장비의 ONOFFLINE상태를 usermode에서 rebuild 
