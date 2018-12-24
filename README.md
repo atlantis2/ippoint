@@ -13,6 +13,11 @@
 * 6 고객사에서 운영중에 시스템에 적용시 설치버전에 대한 업그레이드 테스트 요망.
 -----
 # Changelog
+* 2.0.370 - 20181224
+* log send format 변경 : IPPoint Format -> Tranditional Format ( receiver쪽에서 facility, severity를 구분하지 못함 )
+* dhcp 설정 변경 ( 이전버전이랑 설정포맷 변경) 
+* dhcp relay 설정 추가 
+-----
 * 2.0.360 - 20181116
 * 호스트가 차단 혹은 멀티일 경우에 30분동안 응답이 없을 경우에는 차단메세지 보내는것 금지 
     * host(A), host(B)가 동일 IP주소를 가지고 있고, host(A)가 차단 혹은 멀티이고 장기 미사용중(Poweroff)일 경우 host(B)가 허용으로 사용중일 경우 host(B)가 host(A)의 정책에 대한 시그널을 받게 되어 차단되는 경우 발생
