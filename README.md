@@ -13,6 +13,11 @@
 * 6 고객사에서 운영중에 시스템에 적용시 설치버전에 대한 업그레이드 테스트 요망.
 -----
 # Changelog
+* 2.0.373 - 20181227
+* VLAN Delete 행업
+    * 증상: unregister_netdevice 메세지 발생 및 행업 현상 
+    * 해결: 정상적으로 hangup VLAN삭제 
+-----
 * 2.0.370 - 20181224
 * log send format 변경 : IPPoint Format -> Tranditional Format ( receiver쪽에서 facility, severity를 구분하지 못함 )
 * dhcp 설정 변경 ( 이전버전이랑 설정포맷 변경) 
