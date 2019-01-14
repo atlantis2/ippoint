@@ -13,6 +13,14 @@
 * 6 고객사에서 운영중에 시스템에 적용시 설치버전에 대한 업그레이드 테스트 요망.
 -----
 # Changelog
+* 2.0.381 - 20190114
+* TeamAC버그 
+    * 증상: IP충돌호스트가 발생시 허용 Host에대하여 차단이 되는 현상 발생
+    * 해결: ipprocessing에서 기존의 ipblock list에 미체크된 리스트 삭제, ipcollision ipaddress에대해서는 skip, vtysh: host allow host deny 수정
+    * 
+* Host List 늦음 현상
+    * 증상: Host List시 리스트가 많으면 오래걸림.
+    * 해결: profile_host_list시 clearcache를 edit시에만
 * 2.0.373 - 20181227
 * VLAN Delete 행업
     * 증상: unregister_netdevice 메세지 발생 및 행업 현상 
