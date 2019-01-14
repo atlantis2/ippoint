@@ -15,7 +15,7 @@
 # Changelog
 * 2.0.382 - 20190114
 * IP/IP6 reset
-    * 증상: 관리자가 IP/IP6 Reset가능하게
+    * 해결: 관리자가 IP/IP6 Reset가능하게
 -----
 * 2.0.38 - 20190111
 * TeamAC버그 
