@@ -13,7 +13,7 @@
 * 6 고객사에서 운영중에 시스템에 적용시 설치버전에 대한 업그레이드 테스트 요망.
 -----
 # Changelog
-* 2.0.401 - 20190207
+* 2.0.402 - 20190207
 * GUI: Main Change: TabMenu
 * GUI: hostfilter-object: resizable
 -----
