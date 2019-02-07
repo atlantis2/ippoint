@@ -13,6 +13,10 @@
 * 6 고객사에서 운영중에 시스템에 적용시 설치버전에 대한 업그레이드 테스트 요망.
 -----
 # Changelog
+* 2.0.401 - 20190207
+* GUI: Main Change: TabMenu
+* GUI: hostfilter-object: resizable
+-----
 * 2.0.382 - 20190114
 * IP/IP6 reset
     * 해결: 관리자가 IP/IP6 Reset가능하게
