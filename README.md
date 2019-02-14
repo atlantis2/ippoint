@@ -13,6 +13,13 @@
 * 6 고객사에서 운영중에 시스템에 적용시 설치버전에 대한 업그레이드 테스트 요망.
 -----
 # Changelog
+* 2.0.409 - 20190214
+* eventviewer : column resizable
+* 차단페이지 변경 : 
+    * 기존 1개의 페이지(차단페이지) -> 3개의 페이지 (차단, 허용, IP충돌페이지)로 나눔.
+    * image 삽입기능: /image/filename
+    * preview기능: 미리보기 기능
+-----
 * 2.0.402 - 20190207
 * GUI: Main Change: TabMenu
 * GUI: hostfilter-object: resizable
