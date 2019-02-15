@@ -13,6 +13,11 @@
 * 6 고객사에서 운영중에 시스템에 적용시 설치버전에 대한 업그레이드 테스트 요망.
 -----
 # Changelog
+* 2.0.412 - 20190215
+* WEB: host : ipblock, ip6block list array : 4 -> 5
+* logserver key : sendkey -> logserverkey 
+* auditlog 검색: command: standalone과 manager구분
+-----
 * 2.0.411 - 20190214
 * eventviewer : column resizable
 * 차단페이지 변경 : 
