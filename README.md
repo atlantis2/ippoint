@@ -13,6 +13,16 @@
 * 6 고객사에서 운영중에 시스템에 적용시 설치버전에 대한 업그레이드 테스트 요망.
 -----
 # Changelog
+* 2.0.427 - 20190308
+* jtable multiselect dropdownlist 기능 추가
+* jtable tbody scrollable 추가
+* object zone 생성
+    * multiple select
+* host filter 위치 변경 
+    * table안 -> table밖 왼쪽
+    * object zone Default값 
+* system backup시 object zone 추가 
+-----
 * 2.0.420 - 20190219
 * Scanner default 값 변경:
     * IPScan: Enable
